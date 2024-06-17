@@ -1,0 +1,84 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  background-color: rgb(105, 105, 105);
+}
+
+.calculadora {
+  border: 2px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  width: 315px;
+  height: 430px;
+  gap: 2px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+button {
+  width: 70px;
+  height: 80px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(87, 86, 86);
+  color: white;
+  border: 1px solid rgb(87, 86, 86);
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.operador {
+  background-color: rgb(61, 61, 61);
+}
+
+.operador:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+.operadorIgual {
+  background-color: rgb(64, 101, 150);
+}
+
+.operadorIgual:hover {
+  background-color: rgb(47, 78, 117);
+}
+
+.operadorC {
+  color: rgb(64, 101, 150);
+}
+
+.div_resultado {
+  margin: 20px 0;
+  width: 90%;
+  height: 50px;
+  border: 2px solid rgb(78, 78, 78);
+  border-radius: 5px;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 10px;
+}
+
+@media all and (max-width: 430px) {
+  body {
+    margin-top: 40%;
+  }
+}
